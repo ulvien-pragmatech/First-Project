@@ -1,0 +1,72 @@
+@import "../scss/base/reset";
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#test {
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    z-index: 9999;
+}
+
+.parallax__nature {
+    // background: url(/assets/illustrations/intro/sky.png);
+    .parallax__wrapper {
+        width: 100%;
+        overflow: hidden;
+        img {
+            position: absolute;
+            left: 0;
+            width: 100%;
+        }
+        #nature__sky {
+            top: 0;
+            z-index: -1;
+        }
+        #nature__sun {
+            z-index: 10;
+        }
+        #mountain__far {
+            z-index: 20;
+        }
+        #mountain__close {
+            z-index: 30;
+        }
+        #nature__river {
+            z-index: 40;
+        }
+        #hill__1 {
+            z-index: 50;
+        }
+        #hill__2 {
+            z-index: 60;
+        }
+        #hill__3 {
+            z-index: 70;
+        }
+        #bush__1 {
+            z-index: 80;
+        }
+        #bush__2 {
+            z-index: 90;
+        }
+        #filler__bush {
+            z-index: 100;
+            overflow: hidden;
+        }
+        #leaf__left {
+            z-index: 150;
+            left: -1700px;
+        }
+        #leaf__right {
+            z-index: 120;
+            left: 1700px;
+        }
+    }
+}

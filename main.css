@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+#test {
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  z-index: 9999;
+}
+
+.parallax__nature .parallax__wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.parallax__nature .parallax__wrapper img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.parallax__nature .parallax__wrapper #nature__sky {
+  top: 0;
+  z-index: -1;
+}
+
+.parallax__nature .parallax__wrapper #nature__sun {
+  z-index: 10;
+}
+
+.parallax__nature .parallax__wrapper #mountain__far {
+  z-index: 20;
+}
+
+.parallax__nature .parallax__wrapper #mountain__close {
+  z-index: 30;
+}
+
+.parallax__nature .parallax__wrapper #nature__river {
+  z-index: 40;
+}
+
+.parallax__nature .parallax__wrapper #hill__1 {
+  z-index: 50;
+}
+
+.parallax__nature .parallax__wrapper #hill__2 {
+  z-index: 60;
+}
+
+.parallax__nature .parallax__wrapper #hill__3 {
+  z-index: 70;
+}
+
+.parallax__nature .parallax__wrapper #bush__1 {
+  z-index: 80;
+}
+
+.parallax__nature .parallax__wrapper #bush__2 {
+  z-index: 90;
+}
+
+.parallax__nature .parallax__wrapper #filler__bush {
+  z-index: 100;
+  overflow: hidden;
+}
+
+.parallax__nature .parallax__wrapper #leaf__left {
+  z-index: 150;
+  left: -1700px;
+}
+
+.parallax__nature .parallax__wrapper #leaf__right {
+  z-index: 120;
+  left: 1700px;
+}
+/*# sourceMappingURL=main.css.map */
